@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import '../styles/index.css';
-
+let name = 'blah';
 function Index() {
   const [date, setDate] = useState(null);
   useEffect(() => {
@@ -42,7 +42,7 @@ function Index() {
         which contains a serverless{' '}
         <a href="https://nodejs.org/en/">Node.js (TypeScript)</a> function. See{' '}
         <a href="/api/date">
-          <code>api/date</code> for the Date API with Node.js (TypeScript)
+          <code>api/date</code> for the Date API with Node.js,... wtf I'm hungry {name} (TypeScript)
         </a>
         .
       </p>
