@@ -4,6 +4,7 @@ import '../styles/index.css';
 //let name = 'blah';
 function Index() {
   const [date, setDate] = useState(null);
+  const name = 'fred';
   useEffect(() => {
     async function getDate() {
       const res = await fetch('/api/date');
@@ -25,7 +26,7 @@ function Index() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          ZEIT Now.. x
+          ZEIT Now.. x123 { name }
         </a>
         !
       </h2>
